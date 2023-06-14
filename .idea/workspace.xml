@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9e5cece-07cd-4690-b927-9c7a3d1a0531" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/EmployeesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/UpdateEmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/ComponentScanMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/BootstrapApplicationComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ServletDispatcherInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/entity/EmployeeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/entity/_EntityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/repository/_JpaRepositoryMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properities" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/migrations/V1_0__init_employees_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employeeDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/error.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RBmKQO9j5ybNw41lKYEFY8avii" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/XavrasPC/Desktop/ZAJAVKA_WORKSHOP/19_workshop_MVC/example/mvcThymeleafExample/src/main/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\XavrasPC\Desktop\ZAJAVKA_WORKSHOP\19_workshop_MVC\example\mvcThymeleafExample\src\main\resources" />
+      <recent name="C:\Users\XavrasPC\Desktop\ZAJAVKA_WORKSHOP\19_workshop_MVC\example\mvcThymeleafExample" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9e5cece-07cd-4690-b927-9c7a3d1a0531" name="Changes" comment="" />
+      <created>1686731786144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686731786144</updated>
+    </task>
+    <servers />
+  </component>
+</project>
