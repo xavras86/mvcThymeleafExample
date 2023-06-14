@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9e5cece-07cd-4690-b927-9c7a3d1a0531" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/EmployeesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/EmployeesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/ComponentScanMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/ComponentScanMarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/BootstrapApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/BootstrapApplicationComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ServletDispatcherInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ServletDispatcherInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/entity/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/entity/EmployeeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properities" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/flyway/migrations/V1_0__init_employees_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/flyway/migrations/V1_0__init_employees_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employeeDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employeeDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/EmployeesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/UpdateEmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/UpdateEmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/configuration/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/BootstrapApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/configuration/BootstrapApplicationComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ServletDispatcherInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/configuration/ServletDispatcherInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/entity/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/database/entity/EmployeeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/entity/_EntityMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/database/entity/_EntityMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/database/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/repository/_JpaRepositoryMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/database/repository/_JpaRepositoryMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employees.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +35,26 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="mvcThymeleafExample" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mvcThymeleafExample" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mvcThymeleafExample" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -60,6 +76,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2RBmKQO9j5ybNw41lKYEFY8avii" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,6 +102,78 @@
       <recent name="C:\Users\XavrasPC\Desktop\ZAJAVKA_WORKSHOP\19_workshop_MVC\example\mvcThymeleafExample" />
     </key>
   </component>
+  <component name="RunManager" selected="Gradle.mvcThymeleafExample [build]">
+    <configuration name="mvcThymeleafExample [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="mvcThymeleafExample [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="mvcThymeleafExample [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.mvcThymeleafExample [build]" />
+        <item itemvalue="Gradle.mvcThymeleafExample [clean]" />
+        <item itemvalue="Gradle.mvcThymeleafExample [war]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686733655326</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v2.0 - entity,repository, config">
+      <created>1686745268574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686745268574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +213,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0 - init" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0 - init" />
+    <MESSAGE value="v2.0 - entity,repository, config" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.0 - entity,repository, config" />
   </component>
 </project>

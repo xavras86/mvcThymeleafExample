@@ -1,17 +1,19 @@
-package pl.zajavka.springwebmvc.infrastructure.configuration;
+package pl.zajavka.infrastructure.configuration;
 
+import lombok.AllArgsConstructor;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import pl.zajavka.springwebmvc.infrastructure.database.entity.EmployeeEntity;
-import pl.zajavka.springwebmvc.infrastructure.database.repository.EmployeeRepository;
+import pl.zajavka.infrastructure.database.entity.EmployeeEntity;
+import pl.zajavka.infrastructure.database.repository.EmployeeRepository;
 
 import java.math.BigDecimal;
 
 
 @Component
+@AllArgsConstructor
 public class BootstrapApplicationComponent implements ApplicationListener<ContextRefreshedEvent> {
 
     private EmployeeRepository employeeRepository;

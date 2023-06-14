@@ -1,4 +1,4 @@
-package pl.zajavka.springwebmvc.infrastructure.configuration;
+package pl.zajavka.infrastructure.configuration;
 
 import jakarta.servlet.Filter;
 import org.springframework.lang.NonNull;

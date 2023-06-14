@@ -1,7 +1,8 @@
-package pl.zajavka.springwebmvc.infrastructure.configuration;
+package pl.zajavka.infrastructure.configuration;
 
 import jakarta.persistence.EntityManagerFactory;
 import lombok.AllArgsConstructor;
+
 import lombok.Setter;
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.Location;
@@ -25,9 +26,9 @@ import org.thymeleaf.spring6.SpringTemplateEngine;
 import org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
+import pl.zajavka.infrastructure.database.entity._EntityMarker;
 import pl.zajavka.ComponentScanMarker;
-import pl.zajavka.springwebmvc.infrastructure.database.entity._EntityMarker;
-import pl.zajavka.springwebmvc.infrastructure.database.repository._JpaRepositoryMarker;
+import pl.zajavka.infrastructure.database.repository._JpaRepositoryMarker;
 
 import javax.sql.DataSource;
 import java.nio.charset.StandardCharsets;
@@ -43,13 +44,13 @@ import java.util.Properties;
 @ComponentScan(basePackageClasses = ComponentScanMarker.class)
 public class ApplicationConfiguration implements WebMvcConfigurer, ApplicationContextAware {
 
+    private final org.springframework.core.env.Environment environment;
     @Setter
     private ApplicationContext applicationContext;
 
-    private final org.springframework.core.env.Environment environment;
     @Bean
     @DependsOn("flyway")
-    public LocalContainerEntityManagerFactoryBean entityManagerFactoryBean() {
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean entityManagerFactory
                 = new LocalContainerEntityManagerFactoryBean();
         entityManagerFactory.setDataSource(dataSource());
@@ -110,7 +111,7 @@ public class ApplicationConfiguration implements WebMvcConfigurer, ApplicationCo
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(this.applicationContext);
-        templateResolver.setPrefix("/WEB-INF/templates");
+        templateResolver.setPrefix("/WEB-INF/templates/");
         templateResolver.setSuffix(".html");
         templateResolver.setCharacterEncoding(StandardCharsets.UTF_8.name());
         templateResolver.setTemplateMode(TemplateMode.HTML);
