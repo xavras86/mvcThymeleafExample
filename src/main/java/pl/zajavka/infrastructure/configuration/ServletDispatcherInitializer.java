@@ -23,6 +23,7 @@ public class ServletDispatcherInitializer extends AbstractAnnotationConfigDispat
         return new String[]{"/"};
     }
 
+    //obsługa metod post put delete
     @Override
     protected Filter[] getServletFilters() {
         CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
