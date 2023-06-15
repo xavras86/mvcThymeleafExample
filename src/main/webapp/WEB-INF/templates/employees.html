@@ -20,11 +20,31 @@
                         Surname: <input type="text" th:name="surname"/>
                         Salary: <input type="text" th:name="salary"/>
                     </div>
+                    <br>
                     <div class="form-group">
                         <input type="submit" value="Create employee" name="button"/>
                     </div>
                 </form>
             </div>
+            <br>
+            <h2>Update an employee</h2>
+            <form action="#"
+                      th:action="@{/employees/update}"
+                      th:method="PUT"
+                      th:object="${updateEmployeeDTO}">
+                      <div class="form-group">
+                          ID: <input type="text" th:field="*{employeeId}"/>
+                          NAME: <input type="text" th:field="*{name}"/>
+                          SURNAME: <input type="text" th:field="*{surname}"/>
+                          SALARY: <input type="text" th:field="*{salary}"/>
+                      </div>
+                <br>
+                <div class="form-group">
+                    <input type="submit" value="Update employee" name="button"/>
+                </div>
+            </form>
+
+
             <br>
             <div>
                 <h2>Current Employees</h2>
@@ -34,12 +54,26 @@
                         <th>Name</th>
                         <th>Surname</th>
                         <th>Salary</th>
+                        <th></th>
+                        <th></th>
                     </tr>
                     <tr th:each="employee : ${employees}">
                         <td th:text="${employee.employeeId}"></td>
                         <td th:text="${employee.name}"></td>
                         <td th:text="${employee.surname}"></td>
                         <td th:text="${employee.salary}"></td>
+                        <td>
+                            <form action="#" th:action="@{/employees/show/{employeeId}(employeeId=${employee.employeeId})}"
+                                  method="GET">
+                                <button type="submint" class="btn btn-info">Show</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#" th:action="@{/employees/delete/{employeeId}(employeeId=${employee.employeeId})}"
+                                  th:method="DELETE">
+                                <button type="submint" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
                     </tr>
                 </table>
             </div>

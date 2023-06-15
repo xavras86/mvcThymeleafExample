@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9e5cece-07cd-4690-b927-9c7a3d1a0531" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/EmployeesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/EmployeesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/controller/UpdateEmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/UpdateEmployeeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/configuration/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/BootstrapApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/configuration/BootstrapApplicationComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/configuration/ServletDispatcherInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/configuration/ServletDispatcherInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/entity/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/database/entity/EmployeeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/entity/_EntityMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/database/entity/_EntityMarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/database/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/springwebmvc/infrastructure/database/repository/_JpaRepositoryMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/infrastructure/database/repository/_JpaRepositoryMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/UpdateEmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/zajavka/controller/UpdateEmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employeeDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employeeDetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/error.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +80,12 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/XavrasPC/Desktop/ZAJAVKA_WORKSHOP/19_workshop_MVC/example/mvcThymeleafExample/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/XavrasPC/Desktop/ZAJAVKA_WORKSHOP/19_workshop_MVC/example/mvcThymeleafExample/src/main/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pl.zajavka.springwebmvc.infrastructure.configuration" />
@@ -100,6 +93,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\XavrasPC\Desktop\ZAJAVKA_WORKSHOP\19_workshop_MVC\example\mvcThymeleafExample\src\main\resources" />
       <recent name="C:\Users\XavrasPC\Desktop\ZAJAVKA_WORKSHOP\19_workshop_MVC\example\mvcThymeleafExample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\XavrasPC\Desktop\ZAJAVKA_WORKSHOP\19_workshop_MVC\example\mvcThymeleafExample\src\main\webapp\resources\img" />
+      <recent name="C:\Users\XavrasPC\Desktop\ZAJAVKA_WORKSHOP\19_workshop_MVC\example\mvcThymeleafExample\src\main\webapp\resources" />
+      <recent name="C:\Users\XavrasPC\Desktop\ZAJAVKA_WORKSHOP\19_workshop_MVC\example\mvcThymeleafExample\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.mvcThymeleafExample [build]">
@@ -197,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686745268574</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v3.0 - post, get - functional">
+      <created>1686772992616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686772992616</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +219,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0 - init" />
     <MESSAGE value="v2.0 - entity,repository, config" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.0 - entity,repository, config" />
+    <MESSAGE value="v3.0 - post, get - functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="v3.0 - post, get - functional" />
   </component>
 </project>
